@@ -1,0 +1,26 @@
+.button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+
+font-family: 'Roboto', sans-serif;
+@include font (16px, 1.87, 700, 0.06em);
+color: var(--secondary-accent-color);
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: 0px;
+border-radius: 4px;
+transition-property: background-color;
+transition-duration: var(--transition-duration);
+transition-timing-function: var(--transition-timing-function);
+cursor: pointer;
+    &:hover,
+    &:focus {
+    background-color: var(--hover-btn-color);
+    }
+}
+
+// .main-button__icon {
+//     margin-left: 10px;
+//     fill: var(--white-color);
+// }

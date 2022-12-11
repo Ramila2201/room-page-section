@@ -1,0 +1,25 @@
+html {
+box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: inherit;
+}
+
+.site-body {
+background-color: var(--secondary-accent-color);
+color: var(--title-text-color);
+font-family: 'Roboto', sans-serif;
+letter-spacing: 0.03em;
+}
+
+
+.list {
+list-style: none;
+}
+
+.link {
+text-decoration: none;
+}

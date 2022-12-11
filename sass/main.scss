@@ -1,0 +1,16 @@
+@import './utils/vars';
+@import './base/reset';
+@import './utils/placeholders';
+@import './utils/mixins';
+@import './base/common';
+@import './utils/hidden';
+
+@import './components/container';
+@import './components/btn';
+
+
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/amenities';
+@import './layouts/footer';
